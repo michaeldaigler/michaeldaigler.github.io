@@ -35,7 +35,7 @@ export default createStyles({
   },
   navMenu: {
     display: "grid",
-    gridTemplateColumns: "repeat(6, auto)",
+    gridTemplateColumns: "repeat(7, auto)",
     gridGap: "10px",
     listStyle: "none",
     textAlign: "center",
@@ -54,4 +54,8 @@ export default createStyles({
     padding: "0.5rem 1rem",
     height: "100%",
   },
+  podcastIcon: {
+    // height: "100px",
+    color: "#9599E2"
+  }
 });

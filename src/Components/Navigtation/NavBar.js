@@ -5,6 +5,8 @@ import { makeStyles } from "@material-ui/styles";
 import GithubIcon from "../../assets/LinksIcons/githublogo.svg";
 import LinkedInIcon from "../../assets/LinksIcons/linkInlogo.svg";
 import NavButton from "./NavButton";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {faPodcast} from "@fortawesome/free-solid-svg-icons"
 const useStyles = makeStyles(NavStyles);
 
 const NavBar = () => {
@@ -77,6 +79,16 @@ const NavBar = () => {
               style={{ color: "#00CED1", textDecoration: "none" }}
             >
               <img src={GithubIcon} />
+              </a>
+            </li>
+            <li className={classes.navItem}>
+              <a
+                className={classes.navLinks}
+              href="https://podcasts.apple.com/us/podcast/the-michael-daigler-show/id1555997059"
+              style={{ color: "#00CED1", textDecoration: "" }}
+              >
+                <FontAwesomeIcon icon={faPodcast} size="lg" className={ classes.podcastIcon}/>
+
               </a>
               </li>
           </ul>

@@ -199,5 +199,9 @@ export default createStyles({
     marginBlockEnd: "1em",
     marginInlineStart: "15px",
     marginInlineEnd: "0px",
-  },
+    },
+    podcastIcon: {
+        height: "100px",
+        color: "#9599E2"
+      }
 });

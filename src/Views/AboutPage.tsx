@@ -23,7 +23,7 @@ const AboutPage: React.FC<CheckBreakPointInterfaceProps> = (props) => {
           <p>I enjoy running, lifting weights, reading and learning about human psychology. I love lsitening to podcasts and audiobooks, especially when I run. I also train Brazilian Jiu Jistu. Oss!🥋</p>
         </p>
         <p><strong>General</strong><br />
-      <p>I love meeting new people and having great converstaions about ideas. Please reach out if you've got anything you'd like to say </p>
+      <p>I love meeting new people and having great converstaions about ideas. Please reach out if you've got anything you'd like to say! </p>
         </p>
         </div>
         {!props.passedBreakPoint && <DynamicPictures />}

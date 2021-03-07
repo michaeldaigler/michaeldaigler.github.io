@@ -406,4 +406,7 @@ export default createStyles({
     marginInlineStart: "15px",
     marginInlineEnd: "0px",
   },
+  podcastIcon: {
+    color: "#9599E2"
+  }
 });

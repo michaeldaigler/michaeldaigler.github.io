@@ -1,25 +1,43 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import React, { useContext, useEffect } from "react";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { makeStyles } from "@material-ui/styles";
+import AppStyle from "./Styles/App.style";
+import HomePage from "./Views/HomePage";
+import NavBar from "./Components/Navigtation/NavBar";
+import AboutPage from "./Views/AboutPage";
+import ExperiencesPage from "./Views/ExperiencesPage";
+import Footer from "./Components/Footer";
+import ViewportProvider, {useViewPort} from "./Context/ViewportProvider";
+const useStyles = makeStyles(AppStyle);
 
-function App() {
+const App = () => {
+  const classes = useStyles();
+  const { width, height } = useViewPort();
+  const passedBreakPoint = width < 580;
+  useEffect(() => {
+
+  })
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ViewportProvider>
+    <div className={classes.app + " container"}>
+
+      <BrowserRouter>
+      <NavBar />
+        <Switch>
+
+            <Route path="/" exact component={() => <HomePage passedBreakPoint={ passedBreakPoint}/>} />
+
+            <Route path="/about" exact component={() => <AboutPage passedBreakPoint={ passedBreakPoint}/>} />
+            <Route path="/experience" exact component={() => <ExperiencesPage passedBreakPoint={ passedBreakPoint}/>} />
+
+        </Switch>
+        </BrowserRouter>
+
+      </div>
+      </ViewportProvider>
   );
-}
+};
 
 export default App;

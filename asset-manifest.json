@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.9d5b29c0.chunk.css",
-    "main.js": "/static/js/main.b3d9a93e.chunk.js",
-    "main.js.map": "/static/js/main.b3d9a93e.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.4008b33c.js",
-    "runtime-main.js.map": "/static/js/runtime-main.4008b33c.js.map",
-    "static/js/2.6aff1cbf.chunk.js": "/static/js/2.6aff1cbf.chunk.js",
-    "static/js/2.6aff1cbf.chunk.js.map": "/static/js/2.6aff1cbf.chunk.js.map",
-    "static/js/3.99e38858.chunk.js": "/static/js/3.99e38858.chunk.js",
-    "static/js/3.99e38858.chunk.js.map": "/static/js/3.99e38858.chunk.js.map",
+    "main.css": "/static/css/main.a617e044.chunk.css",
+    "main.js": "/static/js/main.a9999942.chunk.js",
+    "main.js.map": "/static/js/main.a9999942.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.3de46b91.js",
+    "runtime-main.js.map": "/static/js/runtime-main.3de46b91.js.map",
+    "static/js/2.3e0ae826.chunk.js": "/static/js/2.3e0ae826.chunk.js",
+    "static/js/2.3e0ae826.chunk.js.map": "/static/js/2.3e0ae826.chunk.js.map",
+    "static/js/3.e68dcbe3.chunk.js": "/static/js/3.e68dcbe3.chunk.js",
+    "static/js/3.e68dcbe3.chunk.js.map": "/static/js/3.e68dcbe3.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.9d5b29c0.chunk.css.map": "/static/css/main.9d5b29c0.chunk.css.map",
-    "static/js/2.6aff1cbf.chunk.js.LICENSE.txt": "/static/js/2.6aff1cbf.chunk.js.LICENSE.txt",
-    "static/media/SunglassesMe.9a19c185.jpeg": "/static/media/SunglassesMe.9a19c185.jpeg",
+    "static/css/main.a617e044.chunk.css.map": "/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.3e0ae826.chunk.js.LICENSE.txt": "/static/js/2.3e0ae826.chunk.js.LICENSE.txt",
+    "static/media/CV_Icon_Tinted.92f92341.png": "/static/media/CV_Icon_Tinted.92f92341.png",
+    "static/media/Michael_Daigler_Resume_PersonalWebsite.986271b7.pdf": "/static/media/Michael_Daigler_Resume_PersonalWebsite.986271b7.pdf",
+    "static/media/Michael_YellowStone_SunglassesCropped.5d735940.jpg": "/static/media/Michael_YellowStone_SunglassesCropped.5d735940.jpg",
     "static/media/Worksense_Icon_copy.8fe37768.png": "/static/media/Worksense_Icon_copy.8fe37768.png",
     "static/media/gatsbyLogo.08315cdf.png": "/static/media/gatsbyLogo.08315cdf.png",
     "static/media/githublogo.a61ef380.svg": "/static/media/githublogo.a61ef380.svg",
-    "static/media/linkInlogo.5a01d9d2.svg": "/static/media/linkInlogo.5a01d9d2.svg",
-    "static/media/lookingIntoDistance.20eb0793.jpeg": "/static/media/lookingIntoDistance.20eb0793.jpeg",
-    "static/media/michael_pic_corrected.d79b6644.jpg": "/static/media/michael_pic_corrected.d79b6644.jpg"
+    "static/media/linkInlogo.5a01d9d2.svg": "/static/media/linkInlogo.5a01d9d2.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.4008b33c.js",
-    "static/js/2.6aff1cbf.chunk.js",
-    "static/css/main.9d5b29c0.chunk.css",
-    "static/js/main.b3d9a93e.chunk.js"
+    "static/js/runtime-main.3de46b91.js",
+    "static/js/2.3e0ae826.chunk.js",
+    "static/css/main.a617e044.chunk.css",
+    "static/js/main.a9999942.chunk.js"
   ]
 }

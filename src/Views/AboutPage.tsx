@@ -4,6 +4,7 @@ import DynamicPictures from "../Components/DynamicPictures";
 import AboutPageStyle from "../Styles/AboutPage.style";
 import {CheckBreakPointInterfaceProps} from "../Interfaces/CheckBreakPointInterfaceProps"
 import Footer from "../Components/Footer";
+import { Container } from "@material-ui/core";
 const useStyles = makeStyles(AboutPageStyle)
 
 const AboutPage: React.FC<CheckBreakPointInterfaceProps> = (props) => {
@@ -12,6 +13,7 @@ const AboutPage: React.FC<CheckBreakPointInterfaceProps> = (props) => {
     <div className={classes.aboutPage}>
       <h1 style={{ fontFamily: "Oswald", color: "#AAAAAA", fontSize: "44px" }}>About Me</h1>
       <div className={classes.aboutPageItemsContainer}>
+        
       <div className={classes.aboutMeDescriptionContainer}>
       <h3>Who am I?</h3>
         <p>
@@ -26,9 +28,10 @@ const AboutPage: React.FC<CheckBreakPointInterfaceProps> = (props) => {
       <p>I love meeting new people and having great converstaions about ideas. Please reach out if you've got anything you'd like to say! </p>
         </p>
         </div>
+     
         {!props.passedBreakPoint && <DynamicPictures />}
       </div>
-      <Footer />
+      {!props.passedBreakPoint && <Footer />}
     </div>
   );
 }

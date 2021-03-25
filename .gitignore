@@ -1,5 +1,13 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+# old files I might need later
+/src/Styles
+/src/Context
+/src/Interfaces
+/src/Views
+/src/customHooks
+/src/Components/Navigation
+
 # dependencies
 /node_modules
 /.pnp

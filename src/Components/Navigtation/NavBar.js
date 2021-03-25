@@ -33,7 +33,7 @@ const NavBar = () => {
 
   return (
     <>
-      <nav className={classes.navBar + "navbar fixed-top navbar-expand-md navbar-light bg-light"}>
+      <nav className={classes.navBar}>
         <div className={classes.navBarContainer}>
           <ul className={click ? "nav-menu active" : classes.navMenu}>
             <li className={classes.navItem}>

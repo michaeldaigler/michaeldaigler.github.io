@@ -12,6 +12,43 @@ export default createStyles({
     position: "sticky",
     top: 0,
     zIndex: 999,
+    "@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2)": {
+      minWidth: "300px",
+      width: "auto",
+    },
+
+    /* Portrait */
+    "@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2)and (orientation: portrait)": {
+      minWidth: "300px",
+      width: "auto",
+    },
+
+    /* Landscape */
+    "@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape)": {},
+
+    /* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+    /* Portrait and Landscape */
+    "@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3)": {},
+
+    /* Portrait */
+    "@media only screen  and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait)": {},
+
+    /* Landscape */
+    "@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape)": {},
+
+    /* ----------- iPhone X ----------- */
+
+    /* Portrait and Landscape */
+    "@media only screen and (min-device-width: 375px)  and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3)": {},
+
+    /* Portrait */
+    "@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait)": {},
+
+    /* Landscape */
+    "@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3)and (orientation: landscape)": {},
+    // "@media screen and (max-width: 375px)": {
+
   },
   navBarContainer: {
     display: "flex",
@@ -19,8 +56,50 @@ export default createStyles({
     alignItems: "center",
     height: "80px",
     maxWidth: "1500px",
-    marginLeft: "30vw"
+    marginLeft: "30vw",
+    "@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2)": {
+      marginLeft: "0px",
+    },
 
+    /* Portrait */
+    "@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2)and (orientation: portrait)": {
+      marginLeft: "0px",
+      overflowX: "scroll"
+    },
+
+    /* Landscape */
+    "@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape)": {},
+
+    /* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+    /* Portrait and Landscape */
+    "@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3)": {
+      marginLeft: "0px",
+      overflowX: "scroll"
+    },
+
+    /* Portrait */
+    "@media only screen  and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait)": {},
+
+    /* Landscape */
+    "@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape)": {},
+
+    /* ----------- iPhone X ----------- */
+
+    /* Portrait and Landscape */
+    "@media only screen and (min-device-width: 375px)  and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3)": {
+      marginLeft: "0px",
+      overflowX: "scroll"
+    },
+
+    /* Portrait */
+    "@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait)": {
+      marginLeft: "0px",
+    },
+
+    /* Landscape */
+    "@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3)and (orientation: landscape)": {},
+    // "@media screen and (max-width: 375px)": {
 
   },
   navbarLogo: {
@@ -41,6 +120,42 @@ export default createStyles({
     textAlign: "center",
     width: "60vw",
     justifyContent: "end",
+    "@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2)": {
+      gridGap: "0px"
+    },
+
+    /* Portrait */
+    "@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2)and (orientation: portrait)": {
+      minWidth: "300px",
+      width: "auto",
+    },
+
+    /* Landscape */
+    "@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape)": {},
+
+    /* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+    /* Portrait and Landscape */
+    "@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3)": {},
+
+    /* Portrait */
+    "@media only screen  and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait)": {},
+
+    /* Landscape */
+    "@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape)": {},
+
+    /* ----------- iPhone X ----------- */
+
+    /* Portrait and Landscape */
+    "@media only screen and (min-device-width: 375px)  and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3)": {},
+
+    /* Portrait */
+    "@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait)": {},
+
+    /* Landscape */
+    "@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3)and (orientation: landscape)": {},
+    // "@media screen and (max-width: 375px)": {
+
 
   },
   navItem: {

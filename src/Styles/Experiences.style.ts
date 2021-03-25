@@ -91,13 +91,33 @@ export default createStyles({
     background: "inherit",
     display: "flex",
     flexDirection: "column",
+    // display: "grid",
+    // gridTemplateAreas: `
+    //   b b a a a b b
+    //   b b c c c b b
+    //   b b a a a b b
+    //   b b c c c b b
+    //   b b a a a b b
+    //   b b c c c b b
+    //   b b a a a b b
+    //   b b c c c b b
+    //   b b a a a b b
+    //   b b c c c b b
+    //   b b a a a b b
+    //   b b c c c b b
+    // `,
+    // gridTemplateRows: "repeat(5, lfr)",
+    // gridTemplateColumns: "500px",
       margin: "0px 0px 0px 0px",
-    overflow: "scroll",
-    height: "auto",
     "& h1": {
       textAlign: "center",
     },
     alignItems: "center",
+  },
+  infoDiv: {
+    alignSelf: "center",
+    display: "flex",
+    flexDirection: "column"
   },
   experience: {
     fontFamily: "Oswald",
@@ -109,12 +129,14 @@ export default createStyles({
       height: "100px",
       width: "100px",
     },
+
     "& h1": {
-      marginInline: "0px",
-      width: "500px",
+      marginInline: "80px",
+      // width: "30vw",
     },
     "& p": {
       fontSize: "22px",
+      textAlign: "center"
     },
     "@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2)": {
         flexDirection: "column",
@@ -180,7 +202,7 @@ export default createStyles({
   footerContainer: {
     position: "relative",
     bottom: 0,
-    width: "auto",
+    width: "100vw",
     padding: "10px",
     height: "40px",
     backgroundColor: "#414345",
@@ -190,6 +212,54 @@ export default createStyles({
     display: "flex",
     flexDirection: "row",
     justifyContent: "center",
+    "@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2)": {
+      minWidth: "300px",
+      width: "100vw",
+      fontSize: "12px",
+    },
+
+    /* Portrait */
+    "@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2)and (orientation: portrait)": {
+      height: "auto",
+      width: "100vw",
+      fontSize: "12px",
+    },
+
+    /* Landscape */
+    "@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape)": {},
+
+    /* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+    /* Portrait and Landscape */
+    "@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3)": {},
+
+    /* Portrait */
+    "@media only screen  and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait)": {
+      fontSize: "12px",
+      height: "auto",
+      width: "100vw",
+    },
+
+    /* Landscape */
+    "@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape)": {},
+
+    /* ----------- iPhone X ----------- */
+
+    /* Portrait and Landscape */
+    "@media only screen and (min-device-width: 375px)  and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3)": {},
+
+    /* Portrait */
+    "@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait)": {
+      fontSize: "12px",
+      height: "auto",
+      width: "100vw",
+    },
+
+    /* Landscape */
+    "@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3)and (orientation: landscape)": {},
+    // "@media screen and (max-width: 375px)": {
+
+
   },
   footerLinkItem: {
     listStyle: "none",

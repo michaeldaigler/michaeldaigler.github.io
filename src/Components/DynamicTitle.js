@@ -11,10 +11,10 @@ const DynamicTitle = (props) => {
   const [open2, set2] = useState(false)
   const closedCount = useRef(0);
   useEffect(() => {
-    setInterval(() => {
+    setTimeout(() => {
       set((state) => !state);
 
-    }, 5000);
+    }, 1000);
   }, []);
 
   console.log(closedCount.current)

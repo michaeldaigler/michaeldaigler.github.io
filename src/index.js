@@ -4,13 +4,13 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import App from './App';
 import ViewportProvider from './Context/ViewportProvider';
-// import './fonts/'
 
 ReactDOM.render(
   <React.Fragment>
-    <ViewportProvider>
-      <App />
-      </ViewportProvider>
+
+    <App />
+
+
   </React.Fragment>,
   document.getElementById('root')
 );

@@ -3,7 +3,7 @@ import React, { useState, useEffect, createContext, useContext } from "react";
 const viewportContext = createContext({ width: 0, height: 0 })
 
 const ViewportProvider = ({ children }) => {
-    // Declare a new state variable with the "useState" Hook
+
     const [width, setWidth] = useState(window.innerWidth);
     const [height, setHeight] = useState(window.innerHeight)
     const breakpoint = 620;
@@ -25,12 +25,6 @@ const ViewportProvider = ({ children }) => {
         </viewportContext.Provider>
     )
 }
-
-// const useViewPort = () => {
-//     const {width, height} = useContext(viewportContext)
-//     return { width, height }
-// }
-
 
 export default ViewportProvider;
 export const  useViewPort = () => {

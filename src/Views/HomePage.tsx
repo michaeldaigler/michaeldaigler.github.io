@@ -11,7 +11,7 @@ import {CheckBreakPointInterfaceProps} from "../Interfaces/CheckBreakPointInterf
 const useStyles = makeStyles(AppStyle)
 
 const HomePage: React.FC<CheckBreakPointInterfaceProps> = (props) => {
-  const {widht, height} = useViewPort()
+
 
   const classes = useStyles();
   if (props.passedBreakPoint) {
@@ -21,8 +21,7 @@ const HomePage: React.FC<CheckBreakPointInterfaceProps> = (props) => {
         <Description />
 
         </div>
-        <Footer />
-
+        {!props.passedBreakPoint && <Footer />}
       </div>)
   }
   return  (
@@ -32,8 +31,7 @@ const HomePage: React.FC<CheckBreakPointInterfaceProps> = (props) => {
       <Description />
 
       </div>
-      <Footer />
-
+      {!props.passedBreakPoint && <Footer />}
     </div>
   );
 }

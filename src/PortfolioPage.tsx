@@ -15,7 +15,7 @@ import CorningLogo from "./assets/CorningLogo.jpeg";
 import GithubIcon from "./assets/LinksIcons/githublogo.svg";
 import CV_Icon from "./assets/CV_Icon_Tinted.png"
 import LinkedInIcon from "./assets/LinksIcons/linkInlogo.svg";
-import MyResume from "./files/Michael_Daigler_Resume_PersonalWebsite.pdf";
+import MyResume from "./files/Michael_Daigler_Resume_Website4-18-21.pdf";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPodcast } from "@fortawesome/free-solid-svg-icons";
@@ -275,13 +275,13 @@ const ProfilePage: React.FC<PortfolioPageProps> = (props) => {
                     <br />
                     <p>
                       I enjoy running, lifting weights, reading and learning
-                      about human psychology. <br />I love lsitening to podcasts
+                      about human psychology. I also love philosophical conversations about things that relate to meaning and the metaphysics of reality.<br />I love listening to podcasts
                       and audiobooks, especially when I run. I also train
                       Brazilian Jiu Jistu. Oss!🥋
                       <br /> I also have an interests in the crypto-space (i.e.,
                       NFT's, Blockchain, DeFi, etc.). Check out my NFT
                       collection{" "}
-                      <a href="https://opensea.io/accounts/merkle_D">
+                      <a href="https://opensea.io/accounts/merkle_">
                         <strong>Here</strong>
                       </a>
                     </p>
@@ -365,7 +365,7 @@ const ProfilePage: React.FC<PortfolioPageProps> = (props) => {
                       <br />
                     </h1>
                     <p>
-                      Incoming Sofware Engineer Intern
+                      Incoming Software Engineer Intern
                       <br />
                       May 2021 - Aug 2021
                     </p>
@@ -434,7 +434,7 @@ const ProfilePage: React.FC<PortfolioPageProps> = (props) => {
                     <div className={classes.infoDiv}>
                       <h1>Short Story (YC S19)</h1>
                       <p>
-                        Sofware Engineer Intern
+                        Software Engineer Intern
                         <br />
                         Jan 2020 - May 2020
                       </p>
@@ -456,11 +456,11 @@ const ProfilePage: React.FC<PortfolioPageProps> = (props) => {
                       <h1>
                         Corning Inc
                         <br />
-                        <p>
-                          Reaserach {"&"} Development Intern <br />
+                      </h1>
+                      <p>
+                        Research {"&"} Development Intern <br />
                           Jun 2018 - Aug 2018
                         </p>
-                      </h1>
                     </div>
                   </div>
                 </Card>

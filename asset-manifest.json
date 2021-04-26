@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.9d5b29c0.chunk.css",
-    "main.js": "/static/js/main.50143240.chunk.js",
-    "main.js.map": "/static/js/main.50143240.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.9fe0d1f1.js",
-    "runtime-main.js.map": "/static/js/runtime-main.9fe0d1f1.js.map",
-    "static/js/2.a4e77aba.chunk.js": "/static/js/2.a4e77aba.chunk.js",
-    "static/js/2.a4e77aba.chunk.js.map": "/static/js/2.a4e77aba.chunk.js.map",
-    "static/js/3.4a58edf4.chunk.js": "/static/js/3.4a58edf4.chunk.js",
-    "static/js/3.4a58edf4.chunk.js.map": "/static/js/3.4a58edf4.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.9d5b29c0.chunk.css.map": "/static/css/main.9d5b29c0.chunk.css.map",
-    "static/js/2.a4e77aba.chunk.js.LICENSE.txt": "/static/js/2.a4e77aba.chunk.js.LICENSE.txt",
-    "static/media/CV_Icon_Tinted.92f92341.png": "/static/media/CV_Icon_Tinted.92f92341.png",
-    "static/media/Michael_Daigler_Resume_Website4-18-21.1dfc6a2b.pdf": "/static/media/Michael_Daigler_Resume_Website4-18-21.1dfc6a2b.pdf",
-    "static/media/Michael_YellowStone_SunglassesCropped.5d735940.jpg": "/static/media/Michael_YellowStone_SunglassesCropped.5d735940.jpg",
-    "static/media/Worksense_Icon_copy.8fe37768.png": "/static/media/Worksense_Icon_copy.8fe37768.png",
-    "static/media/gatsbyLogo.08315cdf.png": "/static/media/gatsbyLogo.08315cdf.png",
-    "static/media/githublogo.a61ef380.svg": "/static/media/githublogo.a61ef380.svg",
-    "static/media/linkInlogo.5a01d9d2.svg": "/static/media/linkInlogo.5a01d9d2.svg"
+    "main.css": "./static/css/main.9d5b29c0.chunk.css",
+    "main.js": "./static/js/main.5e5d5368.chunk.js",
+    "main.js.map": "./static/js/main.5e5d5368.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.3d89a62d.js",
+    "runtime-main.js.map": "./static/js/runtime-main.3d89a62d.js.map",
+    "static/js/2.a4e77aba.chunk.js": "./static/js/2.a4e77aba.chunk.js",
+    "static/js/2.a4e77aba.chunk.js.map": "./static/js/2.a4e77aba.chunk.js.map",
+    "static/js/3.4a58edf4.chunk.js": "./static/js/3.4a58edf4.chunk.js",
+    "static/js/3.4a58edf4.chunk.js.map": "./static/js/3.4a58edf4.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/main.9d5b29c0.chunk.css.map": "./static/css/main.9d5b29c0.chunk.css.map",
+    "static/js/2.a4e77aba.chunk.js.LICENSE.txt": "./static/js/2.a4e77aba.chunk.js.LICENSE.txt",
+    "static/media/CV_Icon_Tinted.92f92341.png": "./static/media/CV_Icon_Tinted.92f92341.png",
+    "static/media/Michael_Daigler_Resume_Website4-18-21.1dfc6a2b.pdf": "./static/media/Michael_Daigler_Resume_Website4-18-21.1dfc6a2b.pdf",
+    "static/media/Michael_YellowStone_SunglassesCropped.5d735940.jpg": "./static/media/Michael_YellowStone_SunglassesCropped.5d735940.jpg",
+    "static/media/Worksense_Icon_copy.8fe37768.png": "./static/media/Worksense_Icon_copy.8fe37768.png",
+    "static/media/gatsbyLogo.08315cdf.png": "./static/media/gatsbyLogo.08315cdf.png",
+    "static/media/githublogo.a61ef380.svg": "./static/media/githublogo.a61ef380.svg",
+    "static/media/linkInlogo.5a01d9d2.svg": "./static/media/linkInlogo.5a01d9d2.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.9fe0d1f1.js",
+    "static/js/runtime-main.3d89a62d.js",
     "static/js/2.a4e77aba.chunk.js",
     "static/css/main.9d5b29c0.chunk.css",
-    "static/js/main.50143240.chunk.js"
+    "static/js/main.5e5d5368.chunk.js"
   ]
 }

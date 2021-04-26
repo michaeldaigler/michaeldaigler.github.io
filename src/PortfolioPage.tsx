@@ -445,7 +445,7 @@ const ProfilePage: React.FC<PortfolioPageProps> = (props) => {
               <Grid xs={12} spacing={4}>
                 <Card className={classes.experienceCard}>
                   <div className={classes.experience}>
-                    <a href="https://my.shortstorybox.com">
+                    <a href="https://www.corning.com/worldwide/en.html">
                       <CardMedia
                         src={CorningLogo}
                         image={CorningLogo}
